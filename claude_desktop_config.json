@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "ghidra": {
+            "command": "/Users/hogyzen12/coding-project-folders/GhidraMCP-release-1-0/venv/bin/python3",
+            "args": [
+                "/Users/hogyzen12/coding-project-folders/GhidraMCP-release-1-0/bridge_mcp_ghidra.py"
+            ]
+        }
+    }
+}
