@@ -1,8 +1,21 @@
 # Ghidra Setup for Solana Binaries with MCP Server
 
-This repository provides a setup for running Ghidra with extensions to analyze Solana binaries, specifically the eBPF and MCP (Multi-user Collaboration Plugin) extensions. The MCP server enables integration with Claude Desktop for a collaborative reverse engineering workflow.
+This repository provides a setup for running Ghidra with extensions to analyze Solana binaries, specifically the eBPF and MCP (model context protocol) extensions. The MCP server enables integration with Claude Desktop for a collaborative reverse engineering workflow.
+
+It aggregates two key sources of open source work:
+[text](https://github.com/LaurieWired/GhidraMCP)
+[text](https://github.com/riptl/ghidra-ebpf)
+
+the ebpf extension make solana program secodeable by ghidra and the mcp protocol for ghidra abstracts away most of the complexity. 
+Connecting these tools together allows for extracting the idl solely from the deployed binary of a solana smart contract.
+Demo - watch at 2x speed 
+
+[text](https://www.loom.com/share/bb99150ae1a6492c940a38de69978463?sid=4585ba0e-d42c-4f25-868f-b68a35211537)
 
 **Note**: The containerization is a work in progress. For a cleaner and more stable experience, we recommend running Ghidra locally and connecting it to Claude Desktop via the MCP server. The extensions and binaries are included in this directory for convenience.
+
+You will have to download the ghidra release yourslef:
+[text](https://github.com/NationalSecurityAgency/ghidra)
 
 ## Introduction
 
