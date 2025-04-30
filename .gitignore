@@ -1,1 +1,6 @@
 ghidra_11.3.1_PUBLIC
+.DS_Store
+.gitignore
+solana-mcp-server/node_modules
+solana-mcp-server/build
+solana-mcp-server/package-lock.json

@@ -5,6 +5,12 @@
             "args": [
                 "/Users/hogyzen12/coding-project-folders/GhidraMCP-release-1-0/bridge_mcp_ghidra.py"
             ]
+        },
+        "solana-mcp-server": {
+            "command": "/usr/local/bin/node",
+            "args": [
+                "/Users/hogyzen12/coding-project-folders/lernean-lens/solana-mcp-server/build/index.js"
+            ]
         }
     }
 }
